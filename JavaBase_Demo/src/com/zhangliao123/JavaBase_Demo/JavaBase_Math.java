@@ -7,7 +7,7 @@ public class JavaBase_Math {
 		 int a = 10;
 	     int b = 20;
 	     int c = 25;
-	     int d = 25;
+	     int d = 11;
 	     System.out.println("a + b = " + (a + b) );
 	     System.out.println("a - b = " + (a - b) );
 	     System.out.println("a * b = " + (a * b) );
@@ -21,6 +21,7 @@ public class JavaBase_Math {
 // 查看  d++ 与 ++d 的不同
 	     System.out.println("d++   = " +  (d++) );
 	     System.out.println("++d   = " +  (++d) );
+	     System.out.println("d>>2  = " +  (d>>3) );
 
 	}
 

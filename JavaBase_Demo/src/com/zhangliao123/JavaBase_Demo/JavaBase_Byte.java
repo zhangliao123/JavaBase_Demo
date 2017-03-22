@@ -8,8 +8,8 @@ public class JavaBase_Byte {
 		
 		PrintStream prt = System.out;
 		
-		int a = 3;
-		int b = 0x55;
+		int a = 0x3;
+		int b = 0xE5;
 		
 		prt.println(a^b);
 		prt.println(a|b);
@@ -19,7 +19,6 @@ public class JavaBase_Byte {
 		prt.println(a>>>1);
 		prt.println(a^=2);
 		
-
 	}
 
 }
