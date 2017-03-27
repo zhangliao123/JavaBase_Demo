@@ -10,7 +10,7 @@ public class Promble4 {
 		int max = 9;
 		// int num = 0;
 
-		for (int i = 0; i < max; i++) {
+		/*for (int i = 0; i < max; i++) {
 
 			for (int j = max; j > i; j--) {
 				System.out.print(" ");
@@ -30,7 +30,7 @@ public class Promble4 {
 			System.out.print("\n");
 		}
 
-		/*
+		
 		 * //等腰三角形输出*，一个loop Scanner input =new Scanner(System.in); int height =
 		 * nextInt(); System.out.println("请输入等腰三角形的高：");
 		 * 
@@ -44,6 +44,14 @@ public class Promble4 {
 		 * private static int nextInt() { // TODO Auto-generated method stub
 		 * return 0;
 		 */
+		
+		int num = 9;
+		for (int i = 1; i <= 9; i++) {
+			for (int j = 1; i < i; j++){
+				System.out.print(" ");
+			}
+			System.out.print("*");
+		}
 	}
 
 }
