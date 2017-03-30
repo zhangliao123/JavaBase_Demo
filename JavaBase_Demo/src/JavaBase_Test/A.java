@@ -1,46 +1,22 @@
 package JavaBase_Test;
 
-class A { // create by danielinbiti
-	public String show(D obj) {
+class A { 
+	public String show(D test) {
 		return ("A and D");
 	}
-
-	public String show(A obj) {
+	public String show(A test) {
 		return ("A and A");
 	}
 }
-
-class B extends A {
-	public String show(B obj) {
+class B extends A {					//继承A类，实现A类中的方法
+	public String show(B test) {	//B类自有的方法
 		return ("B and B");
 	}
-
-	public String show(A obj) {
+	public String show(A test) {	//重写A类中的方法
 		return ("B and A");
 	}
 }
-
-class C extends B {
+class C extends B {   //抽象类，继承B类，实现b类中的方法和A类中的方法
 }
-
-class D extends B {
-}
-
-public static void main(String[] args){
-	A a1 = new A();    
-	A a2 = new B();    
-	B b = new B();    
-	C c = new C();     
-	D d = new D(); 
-	
-	System.out.println(a1.show(b));       
-	System.out.println(a1.show(c));      
-	System.out.println(a1.show(d));      
-	System.out.println(a2.show(b));       
-	System.out.println(a2.show(c));       
-	System.out.println(a2.show(d));       
-	System.out.println(b.show(b));        
-	System.out.println(b.show(c));        
-	System.out.println(b.show(d));      
-	}
+class D extends B {   //抽象类，继承B类，实现b类中的方法和A类中的方法
 }
