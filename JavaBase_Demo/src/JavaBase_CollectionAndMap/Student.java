@@ -22,10 +22,8 @@ public class Student implements Comparable<Student> {
 		if (getClass() != obj.getClass())
 			return false;
 		Student other = (Student) obj;
-
 		if (age != other.age)
 			return false;
-
 		if (name == null) {
 			if (other.name != null)
 				return false;

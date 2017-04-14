@@ -16,6 +16,8 @@ public class LinkedListDemo {
 		
 		System.out.println("系统原来值：" + list);
 		
+		
+		
 		list.element();
 		System.out.println("list.element():" + list);
 
